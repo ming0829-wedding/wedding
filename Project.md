@@ -1,7 +1,12 @@
 # Mobile Wedding Invitation (Invite You My Wedding)
 
+## Related Docs
+- [Build & Deploy Guide](./DEPLOY.md) — GitHub integration, build/deploy commands, custom domain setup, troubleshooting
+
 ## Project Overview
 A React-based mobile wedding invitation web application.
+- **Live site**: https://ming0829-wedding.github.io/wedding/
+- **Repository**: https://github.com/ming0829-wedding/wedding
 
 ## Key Features
 - **Intro / Poster**: Welcome animation and main visual on the first screen

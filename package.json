@@ -36,7 +36,8 @@
     "build:client": "webpack --config webpack.client.js",
     "build:server": "webpack --config webpack.server.js",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "optimize:images": "node scripts/optimize-images.js"
   },
   "eslintConfig": {
     "extends": [
@@ -60,6 +61,7 @@
     "copy-webpack-plugin": "^12.0.2",
     "css-loader": "^7.1.1",
     "html-webpack-plugin": "^5.6.0",
+    "sharp": "^0.34.5",
     "style-loader": "^4.0.0",
     "ts-loader": "^9.5.1",
     "webpack": "^5.91.0",

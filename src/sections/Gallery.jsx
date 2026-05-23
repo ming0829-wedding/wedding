@@ -59,14 +59,16 @@ const Label = styled.p`
 `;
 
 const Photos = styled.div`
-  display: flex;
-  flex-direction: column;
-  gap: 6px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 4px;
+  padding: 0 4px;
 `;
 
 const Photo = styled.img`
   width: 100%;
-  height: auto;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
   display: block;
   cursor: pointer;
 `;
