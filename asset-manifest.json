@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/wedding/static/css/main.5af95b5b.css",
-    "main.js": "/wedding/static/js/main.1c8cc826.js",
+    "main.js": "/wedding/static/js/main.25ef2935.js",
     "static/js/453.923c17ca.chunk.js": "/wedding/static/js/453.923c17ca.chunk.js",
     "static/media/GowunDodum-Regular.woff2": "/wedding/static/media/GowunDodum-Regular.5cc66f3a81d5d53d30d8.woff2",
     "static/media/yleeMortalHeart-ImmortalMemory.woff2": "/wedding/static/media/yleeMortalHeart-ImmortalMemory.d1a76a289760157b4a94.woff2",
@@ -11,11 +11,11 @@
     "static/media/slick.ttf": "/wedding/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/wedding/static/media/slick.295183786cd8a1389865.woff",
     "main.5af95b5b.css.map": "/wedding/static/css/main.5af95b5b.css.map",
-    "main.1c8cc826.js.map": "/wedding/static/js/main.1c8cc826.js.map",
+    "main.25ef2935.js.map": "/wedding/static/js/main.25ef2935.js.map",
     "453.923c17ca.chunk.js.map": "/wedding/static/js/453.923c17ca.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5af95b5b.css",
-    "static/js/main.1c8cc826.js"
+    "static/js/main.25ef2935.js"
   ]
 }
