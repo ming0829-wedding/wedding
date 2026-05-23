@@ -41,10 +41,9 @@ export default function Location() {
       </AddressRow>
 
       <MapLinks>
+        <MapLink href={venue.mapLinks.tmap}>티맵</MapLink>
         <MapLink href={venue.mapLinks.kakao}>카카오맵</MapLink>
         <MapLink href={venue.mapLinks.naver}>네이버맵</MapLink>
-        <MapLink href={venue.mapLinks.tmap}>티맵</MapLink>
-        <MapLink href={venue.mapLinks.google}>구글맵</MapLink>
       </MapLinks>
 
       <Notes>
@@ -118,7 +117,7 @@ const AddrValue = styled.span`
 
 const MapLinks = styled.div`
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 8px;
   margin: 22px 0;
 `;

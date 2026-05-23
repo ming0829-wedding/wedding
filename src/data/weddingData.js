@@ -3,27 +3,65 @@
  * Edit values here — all sections read from this file.
  */
 
+const env = process.env;
+
 export const weddingData = {
   // 신랑/신부
   groom: {
     name: "김성훈",
     nameEn: "Sunghoon",
-    phone: "",
-    father: { name: "김화실", phone: "" },
-    mother: { name: "한기옥", phone: "" },
-    account: { bank: "", number: "", holder: "김성훈" },
-    fatherAccount: { bank: "", number: "", holder: "김화실" },
-    motherAccount: { bank: "", number: "", holder: "한기옥" },
+    phone: env.REACT_APP_GROOM_PHONE || "",
+    father: {
+      name: "김화실",
+      phone: env.REACT_APP_GROOM_FATHER_PHONE || "",
+    },
+    mother: {
+      name: "한기옥",
+      phone: env.REACT_APP_GROOM_MOTHER_PHONE || "",
+    },
+    account: {
+      bank: env.REACT_APP_GROOM_ACCOUNT_BANK || "",
+      number: env.REACT_APP_GROOM_ACCOUNT_NUMBER || "",
+      holder: "김성훈",
+    },
+    fatherAccount: {
+      bank: env.REACT_APP_GROOM_FATHER_ACCOUNT_BANK || "",
+      number: env.REACT_APP_GROOM_FATHER_ACCOUNT_NUMBER || "",
+      holder: "김화실",
+    },
+    motherAccount: {
+      bank: env.REACT_APP_GROOM_MOTHER_ACCOUNT_BANK || "",
+      number: env.REACT_APP_GROOM_MOTHER_ACCOUNT_NUMBER || "",
+      holder: "한기옥",
+    },
   },
   bride: {
     name: "민지은",
     nameEn: "Jieun",
-    phone: "",
-    father: { name: "민태식", phone: "" },
-    mother: { name: "백춘희", phone: "" },
-    account: { bank: "", number: "", holder: "민지은" },
-    fatherAccount: { bank: "", number: "", holder: "민태식" },
-    motherAccount: { bank: "", number: "", holder: "백춘희" },
+    phone: env.REACT_APP_BRIDE_PHONE || "",
+    father: {
+      name: "민태식",
+      phone: env.REACT_APP_BRIDE_FATHER_PHONE || "",
+    },
+    mother: {
+      name: "백춘희",
+      phone: env.REACT_APP_BRIDE_MOTHER_PHONE || "",
+    },
+    account: {
+      bank: env.REACT_APP_BRIDE_ACCOUNT_BANK || "",
+      number: env.REACT_APP_BRIDE_ACCOUNT_NUMBER || "",
+      holder: "민지은",
+    },
+    fatherAccount: {
+      bank: env.REACT_APP_BRIDE_FATHER_ACCOUNT_BANK || "",
+      number: env.REACT_APP_BRIDE_FATHER_ACCOUNT_NUMBER || "",
+      holder: "민태식",
+    },
+    motherAccount: {
+      bank: env.REACT_APP_BRIDE_MOTHER_ACCOUNT_BANK || "",
+      number: env.REACT_APP_BRIDE_MOTHER_ACCOUNT_NUMBER || "",
+      holder: "백춘희",
+    },
   },
 
   // 예식
@@ -52,10 +90,9 @@ export const weddingData = {
       "석곡 사거리에서 세종시 방면 50m (왼쪽 방면)",
     ],
     mapLinks: {
+      tmap: "https://tmap.life/9645d5d2",
       kakao: "https://map.kakao.com/link/search/청주 아모르아트컨벤션",
       naver: "https://map.naver.com/p/search/청주 아모르아트컨벤션",
-      tmap: "https://tmap.life/62ffaa39",
-      google: "https://www.google.com/maps/search/청주+아모르아트컨벤션",
     },
   },
 
